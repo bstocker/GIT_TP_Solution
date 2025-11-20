@@ -43,11 +43,11 @@ Pour ajouter des collaborateurs à votre dépôt Github, il vous faut :
 Dans ce second exercice, vous allez modifier les lignes qui suivent dans le README.md et présenter votre équipe ainsi que la date du jour du TP.
 
 Noms des étudiants : 
-* Nom Prénom
-* Nom Prénom  
-* Nom Prénom  
+* Boris STOCKER
+* Boris STOCKER  
+* Boris STOCKER  
 
-Date du jour : XX/XX/20XX
+Date du jour : 20/11/2025
 
 Tout est ok ? 
 Faites donc un **commit** et **pushez** moi tout ça sur le Master (sur **votre** dépôt donc, puisque vous l'avez forké).
