@@ -25,28 +25,36 @@ Décidez entre vous qui ce sera, mais ça n'aura pas d'importance pour la suite.
 
 Le premier exercice consiste donc à **forker** mon dépôt sur l'un des votre, peu importe lequel.
 
-Pour savoir comment forker, lisez ceci : [savoir comment forker](https://github.com/ThomasEcalle/git_tp_final/blob/master/fork.md)
+Voici une vidéo d'accompagnement pour vous aider dans les "Forks" : [Forker ce projet](https://youtu.be/p33-7XQ29zQ)  
 
 > Pour la suite du TP, vous devrez travailler en équipe sur le dépôt, n'oubliez pas de vous ajouter en tant que collaborateurs !
-> Pour ceux qui ne savent plus comment faire, voici un rappel de la démarche : [ajouter des collaborateurs à mon dépôt github](https://github.com/ThomasEcalle/git_tp_final/blob/master/add_collaborators.md).
+  
+# Ajouter des collaborateurs
 
-### Exercice 2 : Présentez-vous ! (5 points)
+Pour ajouter des collaborateurs à votre dépôt Github, il vous faut :
 
-Dans ce second exercice, vous allez modifier les lignes qui suivent dans le README.md et présenter votre équipe (nom de famille et prénom) ainsi que la date du jour du TP.
+ 1. Cliquer sur l'onglet `Settings` en **haut à droite** de votre dépôt
+ 2. Cliquer sur l'onglet `Collaborators` sur le petit menu qui vient d'apparaître **à gauche**
+ 3. Renseigner le pseudo Github de vos camarades pour qu'ils reçoivent leur invitation
+ 4. Dès lors que ceux-ci auront accepté l'invitation reçue par mail, ils pourront travailler sur votre dépôt ! :)
+
+### Exercice 2 : Présentez l'équipe
+
+Dans ce second exercice, vous allez modifier les lignes qui suivent dans le README.md et présenter votre équipe ainsi que la date du jour du TP.
 
 Noms des étudiants : 
 * Nom Prénom
-* Nom Prénom
+* Nom Prénom  
+* Nom Prénom  
 
-
-Date du jour : 20/11/2025
+Date du jour : XX/XX/20XX
 
 Tout est ok ? 
-Faites donc un **commit** et **pushez** moi tout ça sur le main (sur **votre** dépôt donc, puisque vous l'avez forké).
+Faites donc un **commit** et **pushez** moi tout ça sur le Master (sur **votre** dépôt donc, puisque vous l'avez forké).
 
 > N'importe lequel des collaborateurs peut pusher !
 
-### Exercice 3 : Travail d'équipe ! (5 points)
+### Exercice 3 : Travail d'équipe !
 
 Pour cet exercice, je vais appeler les collaborateurs :
 * collaborateur 1
@@ -55,7 +63,7 @@ Pour cet exercice, je vais appeler les collaborateurs :
 
 selon l'ordre dans lequel vous avez mis vos noms dans la présentation.
 
->(Si vous n'êtes pas un groupe de 3 mais inférieur,  la logique est la même mais l'un d'entre vous fera les tâches des manquants :) )
+>(Si vous n'êtes pas un groupe de 3 mais inférieur,  la logique est la même mais l'un d'entre vous fera les tâches des manquants)
 
 
 Il est attendu de tous les collaborateurs de respecter les bonnes pratiques Git et de séparer au mieux leur travail en de multiples petits commits **pertinents** !
@@ -111,21 +119,19 @@ Le **collaborateur 3** devra :
 
 Une fois que le **collaborateur 3** estime que tout son travail est fini, il peut **push** sa branche sur le dépôt distant.
 
-### Exercice 4 : Fusion ! (5 points)
+### Exercice 4 : Fusion !
 
 Nous approchons de la fin de cet TP.
 
 A ce stade, vous devriez avoir 4 branches sur votre dépôt :
 
-* **Main** avec votre commit de présentation
+* **Master** avec votre commit de présentation
 * **feature/collab-1** avec le travail du collaborateur 1
 * **feature/collab-2** avec le travail du collaborateur 2
 * **hotfix/collab-3** avec le travail du collaborateur 3
 
-Nous allons désormais fusionner l'ensemble des **features** sur la branche **main**.
+Nous allons désormais fusionner l'ensemble des **features** sur la branche **master**.
 
-**ATTENTION !** Je veux être capable de voir vos branches et le travail de fusion effectué !
-Débrouillez-vous donc pour avoir les traces de vos branches et donc des commits de merge quoi qu'il arrive.
 
 > N'importe lequel des collaborateurs peut s'occuper des fusions, je pars du principe que les 3 y participent.
 
@@ -133,17 +139,17 @@ Les fusions doivent se faire dans l'ordre suivant :
 
 #### 1ère fusion :
 
-Fusionnez la branche **hotfix/collab-3** sur la branche **main**.
+Fusionnez la branche **hotfix/collab-3** sur la branche **master**.
 
 #### 2ème fusion :
 
-Fusionnez la branche **feature/collab-2** sur la branche **main**.
+Fusionnez la branche **feature/collab-2** sur la branche **master**.
 
 > Attention ici, au moment du Merge, a bien garder les corrections apportées par le **collaborateur 3** !
 
 #### 3ème fusion :
 
-Fusionnez la branche **feature/collab-1** sur la branche **main**.
+Fusionnez la branche **feature/collab-1** sur la branche **master**.
 
 > Attention ici, au moment du Merge, a bien garder les modifications apportées par les **collaborateurs 2 et 3** tout en y ajoutant les modifications du **collaborateur 1** !
 
@@ -151,30 +157,5 @@ Fusionnez la branche **feature/collab-1** sur la branche **main**.
 ### Fin des exercices :
 
 Tout est ok ?
-Alors n'oubliez pas de **push sur main** le résultat de toutes ces fusions sur votre dépôt distant et ... ce sera tout pour ce TP :)
-
-### Comment vais-je corriger ?
-
-J'ai développé un script qui va me permettre, à la fin du temps imparti, de **cloner** tous vos repository automatiquement sur mon ordinateur, en **local**.
-
-**Il est donc impossible de continuer le travail après le temps imparti** car je n'aurai en local que la version figée au moment du script, et donc sans vos changements d'après ;)
-
-### Notation :
-
-La notation est assez simple et vous donne un 10 plutôt facile : 
-
- - Exercice 1 : 5 points
- - Exercice 2 : 5 points
- - Exercice 3 : 5 points
- - Exercice 4 : 5 points
-
-Le **10** est donc plutôt simple à avoir si vous suivez les étapes correctement.
-
-Les exercices **1** , **2** et **4** sont notés en commun.
-L'exercice **3** sera plus personnel car je noterai chaque collaborateur différemment.
-
-> Attention, étant donné que les exercices **1** et **2** sont très simples, je serai stricte sur le respect des bonnes pratiques pour les exercices **3** et **4**
-
-**Bon courage :)**
-
-
+Alors n'oubliez pas de **push sur master** le résultat de toutes ces fusions sur votre dépôt distant et ... ce sera tout pour ce TP.
+  
